@@ -1,0 +1,10 @@
+<Files favicon.ico>
+	Allow from all
+</Files>
+<FilesMatch "^(config|maincore|sql|check|footer|net_graph|ping)\.php$">
+	Deny from all
+</FilesMatch>
+<Files firstrun>
+	Deny from all
+</Files>
+Allow from all
